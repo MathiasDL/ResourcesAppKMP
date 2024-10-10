@@ -63,6 +63,9 @@ android {
         versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        resourceConfigurations += setOf("en", "es")
+//        resConfigs("en", "es") // also tested
     }
 }
 
