@@ -44,6 +44,7 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.uiTooling)
             implementation(libs.androidx.activityCompose)
+            implementation(libs.androidx.appcompat)
         }
 
     }

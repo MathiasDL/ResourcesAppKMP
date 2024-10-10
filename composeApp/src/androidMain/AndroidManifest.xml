@@ -4,7 +4,7 @@
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="ResourcesAppKMP"
-        android:theme="@android:style/Theme.Material.NoActionBar">
+        android:theme="@style/Theme.AppCompat.Light">
         <activity
             android:name=".AppActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
